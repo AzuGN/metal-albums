@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<meta>
+    <style>
+        .right-size{
+            height: 150px;
+            width: 150px;
+        }
+        .center-text {
+            text-align: center;
+        }
+        li {
+            font-weight: bolder;
+        }
+        .list2 {
+            position: relative;
+            left: 190px;
+            bottom: 785px;
+        }
+        .radio-position {
+            position: relative;
+            bottom: 750px;
+        }
+        body {
+            background-color: chocolate;
+        }
+        .text-box-position {
+            position: relative;
+            top: 10px;
+        }
+    </style>
+    <title>My Favorite Metal Albums</title>
+</meta>
+<main>
+    <h1 class="center-text">These are my Favorite Metal Albums!</h1>
+    <ol>
+        <li><a target="_blank" href="https://www.youtube.com/watch?v=H0XGswUuZU0"><img class="right-size"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.tl4gDZtX6vjsGOAuAbb4_QHaHY%26pid%3DApi&f=1"></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/watch?v=YztzNyDGcpc"><img class="right-size"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.KKMzNsMbOCs58LIjyf6j4QHaHY%26pid%3DApi&f=1"></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/watch?v=Rkh9v0PM9vE"><img class="right-size"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.MJsOm2jeela0CTcNpZpI6gHaHa%26pid%3DApi&f=1"></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/watch?v=FK_B9rwYwh8"><img class="right-size"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.CnPFrMx6_v8B7Q1w5kZT7QHaHY%26pid%3DApi&f=1"></a></li>
+        <li><a target="_blank" href="https://www.youtube.com/watch?v=huo0LixGTAc"><img class="right-size"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.0SOzM0fGpkOF27Jeec0xzQHaHa%26pid%3DApi&f=1"></a></li>
+    </ol>
+    <ol class="list2">
+        <li value="666"><a target="_blank" href="https://www.youtube.com/watch?v=EzvtfbqJeIY"><img class="right-size"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.ff-_2YZg88DVBr8wios_pgHaHZ%26pid%3DApi&f=1"></a></li>
+        <li value="7"><a target="_blank" href="https://www.youtube.com/watch?v=rF_77Bsctds"><img class="right-size"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.explicit.bing.net%2Fth%3Fid%3DOIP.p8zQYglmbimG0tmat3qU9wHaGf%26pid%3DApi&f=1"></a></li>
+        <li value="8"><a target="_blank" href="https://www.youtube.com/watch?v=uG7dRX3DgqE"><img class="right-size"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.n0b9PlBMem7yiCXKnc1WBgHaHa%26pid%3DApi&f=1"></a></li>
+        <li value="9"><a target="_blank" href="https://www.youtube.com/watch?v=DM24R_03d-I"><img class="right-size"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.21Vv27WECPZ1z6Qs4h2uVwHaHM%26pid%3DApi&f=1"></a></li>
+        <li value="10"><a target="_blank" href="https://www.youtube.com/watch?v=56VRZQDJrLw"><img class="right-size"src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.OY2Uul8k-5ZMUK8YP-uzMAHaHa%26pid%3DApi&f=1"></a></li>
+    </ol>
+    <form class="radio-position">
+        <p>What is your favorite album?</p>
+        <label for="metal">
+            <input id="metal" value="metal" type="radio" name="metal-nonmetal">Metal
+        </label>
+        <label for="nonmetal">
+            <input id="nonmetal" value="nonmetal" type="radio" name="metal-nonmetal" required>Non-Metal
+        </label><br>
+        <p>If it is Metal, what sub-genre is it?</p>
+        <label for="power">
+            <input id="power" type="checkbox" name="fav-genre"> Power
+        </label>
+        <label for="thrash">
+            <input id="thrash" type="checkbox" name="fav-genre"> Thrash
+        </label>
+        <label for="death">
+            <input id="death" type="checkbox" name="fav-genre"> Death
+        </label><br>
+        <p>Put your album below!</p>
+        <input class="text-box-position" type="text" placeholder="Name of the Album here" required>
+        <button class="text-box-position" type="submit">Submit</button>
+
+    </form>
+</main>
